@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  margin    : 0;
+  padding   : 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  --primary-nutmeg       : hsl(14, 45%, 36%);
+  --dark-raspberry       : hsl(332, 51%, 32%);
+  --neutral-white        : hsl(0, 0%, 100%);
+  --neutral-rose-white   : hsl(330, 100%, 98%);
+  --neutral-eggshell     : hsl(30, 54%, 90%);
+  --neutral-light-grey   : hsl(30, 18%, 87%);
+  --neutral-wenge-brown  : hsl(30, 10%, 34%);
+  --neutral-dark-charcoal: hsl(24, 5%, 18%);
+}
+
+html {
+  font-size      : 62.5%;
+  overflow-x     : hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+main {
+  max-width       : 75rem;
+  margin          : auto;
+  background-color: var(--neutral-white);
+  padding         : 4rem;
+  margin-top      : 10rem;
+  border-radius   : 25px;
+}
+
+img {
+  width        : 100%;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-family  : "Young Serif", serif;
+  font-weight  : 400;
+  color        : hsl(24, 5%, 18%);
+  font-size    : 3.5rem;
+  margin-bottom: 2.5rem;
+}
+
+
+p {
+  font-size  : 16px;
+  font-family: "outfit", serif;
+  line-height: 1.6;
+}
+
+.preparation-time {
+  background-color: var(--neutral-rose-white);
+  padding         : 3rem;
+  margin-top      : 3rem;
+  border-radius   : 1.5rem;
+  margin-bottom   : 3rem;
+}
+
+.preparation-time h2 {
+  font-size  : 1.8rem;
+  color      : var(--dark-raspberry);
+  font-family: "outfit", serif;
+  font-weight: 800;
+}
+
+section h2 {
+  font-size    : 3rem;
+  color        : var(--primary-nutmeg);
+  font-family  : "Young Serif", serif;
+  font-weight  : 400;
+  margin-bottom: 1rem;
+}
+
+section ul li,
+section ol li {
+  font-size   : 1.6rem;
+  line-height : 3rem;
+  margin-left : 2.5rem;
+  padding-left: 2.5rem;
+  color       : var(--neutral-wenge-brown);
+  font-family : "outfit", serif;
+}
+
+li::marker {
+  font-weight: bold;
+}
+
+.nutrition h3 {
+  font-size  : 1.4rem;
+  color      : var(--primary-nutmeg);
+  font-family: "outfit", serif;
+  font-weight: 500;
+  margin     : 10px 0;
+}
+
+table {
+  width          : 100%;
+  border-collapse: collapse;
+  font-size      : 16px;
+}
+
+td {
+  padding    : 10px 30px;
+  text-align : left;
+  color      : var(--primary-nutmeg);
+  font-family: "outfit", serif;
+}
+
+td:last-child {
+  font-weight: bold;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+tr:last-child {
+  border-bottom: 0;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.attribution {
+  font-size : 14px;
+  text-align: center;
+  margin    : 2rem 0;
+}
+
+@media only screen and (max-width: 745px) {
+  main {
+    margin-top   : 0;
+    border-radius: 0;
+    padding      : 0;
+  }
+
+  img {
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+
+  section,
+  main h1,
+  main p,
+  hr {
+    margin: 4rem;
+  }
+}
