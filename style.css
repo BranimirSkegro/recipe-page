@@ -131,13 +131,6 @@ tr:last-child {
 hr {
   margin: 20px 0;
 }
-
-.attribution {
-  font-size : 14px;
-  text-align: center;
-  margin    : 2rem 0;
-}
-
 @media only screen and (max-width: 745px) {
   main {
     margin-top   : 0;
