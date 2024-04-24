@@ -47,7 +47,7 @@ h1 {
   font-family  : "Young Serif", serif;
   font-weight  : 400;
   color        : hsl(24, 5%, 18%);
-  font-size    : 3.5rem;
+  font-size    : 4rem;
   margin-bottom: 2.5rem;
 }
 
@@ -56,6 +56,7 @@ p {
   font-size  : 16px;
   font-family: "outfit", serif;
   line-height: 1.6;
+  color      : var(--neutral-wenge-brown);
 }
 
 .preparation-time {
@@ -131,6 +132,7 @@ tr:last-child {
 hr {
   margin: 20px 0;
 }
+
 @media only screen and (max-width: 745px) {
   main {
     margin-top   : 0;
